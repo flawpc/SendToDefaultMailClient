@@ -1,0 +1,1 @@
+javascript:popw='';Q='';x=document;y=window;if(x.selection) {Q=x.selection.createRange().text;} else if (y.getSelection) {Q=y.getSelection();} else if (x.getSelection) {Q=x.getSelection();}popw = y.open('mailto:?SUBJECT=' + escape(document.title) + '&BODY=' + escape(Q) + escape('\n') + escape(location.href));
